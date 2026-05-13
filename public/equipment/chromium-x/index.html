@@ -1,0 +1,928 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 13, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="light">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="吳健雄" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A highly-customizable Hugo landing page theme powered by Hugo Blox website builder." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/equipment/chromium-x/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/indigo.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/equipment/chromium-x/index.xml" type="application/rss+xml" title="Precision Genomics Suite" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_55c963ae0ca67922.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a3b09ccccdd5f539.png" />
+
+  <link rel="canonical" href="http://localhost:1313/equipment/chromium-x/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Precision Genomics Suite" />
+  <meta property="og:url" content="http://localhost:1313/equipment/chromium-x/" />
+  <meta property="og:title" content="Chromium X | Precision Genomics Suite" />
+  <meta property="og:description" content="A highly-customizable Hugo landing page theme powered by Hugo Blox website builder." /><meta property="og:image" content="http://localhost:1313/media/logo.svg" />
+    <meta property="twitter:image" content="http://localhost:1313/media/logo.svg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+
+
+
+  <title>Chromium X | Precision Genomics Suite</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Precision Genomics Suite">
+            
+            
+              
+              <img
+                fetchpriority="high"
+                decoding="async"
+                class=""
+                width="127"
+                height="36"
+                src="/media/uofm_healthsci_logo_hu_12b4a8118264a320.webp"
+                alt="Precision Genomics Suite" />
+            
+          
+        
+        
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#top"
+        >Home</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link 
+                
+                
+                active
+              
+                
+                
+                
+              
+                
+                
+                
+               inline-flex items-center">
+              Equipment
+              <svg class="h-4 w-4 fill-current inline-block" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+        <ul
+          class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link active"
+              
+              href="/equipment/chromium-x/">
+              Chromium X
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/equipment/visium-cytassist/">
+              Visium CytAssist
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-dropdown-item">
+            <a
+              class="nav-dropdown-link "
+              
+              href="/equipment/xenium-analyzer/">
+              Xenium Analyzer
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/team/"
+        >Team</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/contact/"
+        >Contact</a
+        >
+      </li>
+      
+      
+      
+      <li class="mt-4 inline-block lg:hidden">
+        <a
+          class=""
+          href="https://hugoblox.com/templates/">
+          Contact Us
+        </a>
+      </li>
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      <a
+        href="https://hugoblox.com/templates/"
+        class="inline-block rounded border px-5 py-2 font-semibold transition
+        md:ml-4 px-4 py-1.5 text-sm
+        border-black  hover:bg-black dark:hover:bg-white dark:hover:text-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white
+        hidden lg:inline-block">
+        Contact Us
+      </a>
+      
+    </div>
+  </nav>
+</header>
+
+
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="chromium-x" class="relative hbb-section blox-cta-image-paragraph  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+<div>
+  
+  
+  
+  
+  
+  
+    
+  
+  <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <img class="w-full" src="/media/19_4160_chromium_344_hu_428370b2c4810cac.webp" alt="Chromium X" style="order: 1">
+    <div class="mt-4 md:mt-0">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Chromium X</h2>
+      <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">The Chromium X allows a cost-effective low throughput single-cell RNA-seq or ATAC-seq analysis. It will partition the cells into droplets, which will contain barcoded gel beads. These gel beads are used to accurately track the PCR-amplified fragments to facilitate a single-cell analysis.</p>
+      
+      
+      
+      <a href="https://www.10xgenomics.com/instruments/chromium-x-series" class="mt-3 inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+        10X Genomics Information
+        <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+<p class="text-center">
+  
+  <a href="/privacy/">Privacy</a>
+  
+  
+   &middot; 
+  <a href="/terms/">Terms of Service</a>
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by text-center">
+    © 2026, Product descriptions and images from 10X Genomics
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

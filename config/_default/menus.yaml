@@ -11,14 +11,17 @@ main:
     hasChildren: true
     weight: 50
   - parent: Equipment
-    name: Chromium iX
-    url: equipment/chromium-ix/
+    name: Chromium X
+    url: equipment/chromium-x/
   - parent: Equipment
     name: Visium CytAssist
     url: equipment/visium-cytassist/
   - parent: Equipment
     name: Xenium Analyzer
     url: equipment/xenium-analyzer/
-  - name: Contact Info
-    url: contact-info/
+  - name: Team
+    url: team/
     weight: 70
+  - name: Contact
+    url: contact/
+    weight: 90

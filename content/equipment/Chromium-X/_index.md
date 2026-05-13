@@ -1,5 +1,5 @@
 ---
-title: 'Chromium iX'
+title: 'Chromium X'
 date: 2023-10-24
 type: landing 
 
@@ -9,11 +9,11 @@ design:
 
 sections:
   - block: cta-image-paragraph
-    id: chromium-ix
+    id: chromium-x
     content:
       items:
-        - title: Chromium iX
-          text: The Chromium iX allows a cost-effective low throughput single-cell RNA-seq or ATAC-seq analysis. It will partition the cells into droplets, which will contain barcoded gel beads. These gel beads are used to accurately track the PCR-amplified fragments to facilitate a single-cell analysis.
+        - title: Chromium X
+          text: The Chromium X allows a cost-effective low throughput single-cell RNA-seq or ATAC-seq analysis. It will partition the cells into droplets, which will contain barcoded gel beads. These gel beads are used to accurately track the PCR-amplified fragments to facilitate a single-cell analysis.
           
           # Upload image to `assets/media/` and reference the filename here
           image: 19_4160_chromium_344.webp

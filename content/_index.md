@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Precision Genomics Suite
-      text: Advances in single-cell RNA sequencing have opened new avenues to dissect biological pathways at a resolution that was not previously possible, advancing the application of precision medicine through genomic investigations of specific cells in specific locations. The Precision Genomics Suite consists of a Xenium Analyzer, Visium CytAssist, and Chromium iX, which collectively offer an integrated workflow for multi-omics single cell analyses, whole transcriptome single cell spatial sequencing, and high resolution targeted (i.e., sub-cellular) spatial sequencing.<br /> <br /> Funded by <span style="color:#7BAFD4">**[CFI-JELF](https://www.innovation.ca/apply-manage-awards/funding-opportunities/john-r-evans-leaders-fund)**</span> (<span style="color:#7BAFD4">**[Wright](https://galenwrightlab.com/)**</span>, <span style="color:#7BAFD4">**[Drögemöller](https://www.drogemollerlab.com/)**</span>, and <span style="color:#7BAFD4">**[Kowalec](https://www.kowaleclab.com/)**</span> Labs)
+      text: Advances in single-cell RNA sequencing have opened new avenues to dissect biological pathways at a resolution that was not previously possible, advancing the application of precision medicine through genomic investigations of specific cells in specific locations. The Precision Genomics Suite consists of a Xenium Analyzer, Visium CytAssist, and Chromium X, which collectively offer an integrated workflow for multi-omics single cell analyses, whole transcriptome single cell spatial sequencing, and high resolution targeted (i.e., sub-cellular) spatial sequencing.<br /> <br /> Funded by <span style="color:#7BAFD4">**[CFI-JELF](https://www.innovation.ca/apply-manage-awards/funding-opportunities/john-r-evans-leaders-fund)**</span> (<span style="color:#7BAFD4">**[Wright](https://galenwrightlab.com/)**</span>, <span style="color:#7BAFD4">**[Drögemöller](https://www.drogemollerlab.com/)**</span>, and <span style="color:#7BAFD4">**[Kowalec](https://www.kowaleclab.com/)**</span> Labs)
       
 
     design:
@@ -53,7 +53,7 @@ sections:
     id: solutions
     content:
       items:
-        - title: Chromium iX
+        - title: Chromium X
           text: Single Cell Expression and ATAC
           feature_icon: bolt
           features:
@@ -62,7 +62,7 @@ sections:
           image: 19_4160_chromium_344.webp
           button:
             text: Learn more
-            url: equipment/chromium-ix/
+            url: equipment/chromium-x/
         - title: Visium CytAssist
           text: Whole Spatial Transcriptomics
           feature_icon: bolt
@@ -92,8 +92,8 @@ sections:
       title: Contact us for more details!
       text: 
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Take our Survey
+        url: https://forms.gle/iDhvpqitDk7TnVnV7
     design:
       card:
         # Card background color (CSS class)
